@@ -21,6 +21,14 @@ header {
    box-shadow: 0 4px 4px 0px rgba(188, 188, 188, .9)
 }
 
+header .container {
+   padding-top: 15px;
+}
+
+h3 {
+   padding-top: 10px;
+}
+
 header a {
    text-decoration: none;
    color: white;
@@ -31,6 +39,10 @@ header a:hover {
    color: #FF9800;
 }
 
+.chat-list {
+   margin-top: 90px;
+}
+
 .list dt {
    float: left;
    font-weight: 700;
@@ -39,6 +51,27 @@ header a:hover {
 .list dd {
    float: left;
    clear: right;
+}
+
+.list .text-muted {
+   font-size: 10px;
+}
+
+.alert-message {
+   color: #F57C00;
+}
+
+.chat-list .my-message:before {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   content: '\E7FD';
+   padding-right: 2px;
+   vertical-align: bottom;
+}
+
+.chat-list .my-message {
+   color: #00bcd4;
 }
 
 footer {
@@ -66,41 +99,4 @@ footer .input-chat:focus {
 footer .material-icons {
    font-size: 16px;
    color: white;
-}
-
-.chat-list {
-   margin-top: 90px;
-}
-
-header .container {
-   padding-top: 15px;
-}
-
-header h3 img {
-   margin-top: -5px
-}
-
-h3 {
-   padding-top: 10px;
-}
-
-.list .text-muted {
-   font-size: 10px;
-}
-
-.alert-message {
-   color: #F57C00;
-}
-
-.chat-list .my-message:before {
-   font-family: 'Material Icons';
-   font-weight: normal;
-   font-style: normal;
-   content: '\E7FD';
-   padding-right: 2px;
-   vertical-align: bottom;
-}
-
-.chat-list .my-message {
-   color: #00bcd4;
 }
