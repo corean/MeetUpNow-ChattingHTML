@@ -14,19 +14,16 @@ header {
    top: 0;
    left: 0;
    width: 100%;
-   height: 80px;
+   height: 50px;
    background-color: #F57C00;
    color: #fff;
    z-index: 10;
    box-shadow: 0 4px 4px 0px rgba(188, 188, 188, .9)
 }
 
-header .container {
-   padding-top: 15px;
-}
-
-h3 {
+header h3 {
    padding-top: 10px;
+   font-size: 1.5rem;
 }
 
 header a,
@@ -43,7 +40,7 @@ header a:hover {
 }
 
 .chat-list {
-   margin-top: 90px;
+   margin-top: 60px;
 }
 
 .list dt {
@@ -93,6 +90,9 @@ footer .chatting {
 
 footer .btn-chat {
    background-color: #00bcd4;
+   line-height: 0;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 footer .input-chat:focus {
