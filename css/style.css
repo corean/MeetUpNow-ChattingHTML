@@ -1,11 +1,11 @@
 html {
-   font-family: 'Noto Sans KR', sans-serif;
    position: relative;
    min-height: 100%;
    font-size: 16px;
 }
 
 body {
+   font-family: 'Noto Sans KR', sans-serif;
    margin-bottom: 60px;
 }
 
@@ -29,7 +29,10 @@ h3 {
    padding-top: 10px;
 }
 
-header a {
+header a,
+header a:visited,
+header a:focus,
+header a:active {
    text-decoration: none;
    color: white;
 }
